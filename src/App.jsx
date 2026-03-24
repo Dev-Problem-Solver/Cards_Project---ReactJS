@@ -52,14 +52,17 @@ const App = () => {
     <div className="parent">
     {cardDetails.map(function(el,idx){
       // return <div key ="idx">
-      return (
+      return <div key={idx}>
+
         <Card img = {el.img} name = {el.name} username={el.username} following ={el.following} followers ={el.followers}></Card>
-      )
+      </div>
    
 
     })}
    
+  
     </div>
+     
     </>
   )
 }
