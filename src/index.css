@@ -8,7 +8,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #232323;
+  background-color: rgb(199, 205, 199);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -30,7 +30,7 @@ button {
 
 .heading {
   text-align: center;
-  color: white;
+  color: #444;
   margin: 5rem;
   margin-top: 2rem;
   /* margin-bottom: 5rem; */
